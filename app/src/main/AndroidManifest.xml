@@ -40,9 +40,15 @@
         </intent-filter>
 
         </activity>
+
+        <activity android:name=".activities.CameraBarCodeActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
         -->
-        <activity android:name=".activities.Main2Activity"
-            android:exported="true">
+        <activity android:name=".activities.CameraBarCodeActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -108,10 +114,6 @@
 
         </activity>
         <!--add google tensorflow-->
-        <activity android:name=".activities.CameraBarCodeActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
         <activity android:name=".activities.CustomObjectDetectionActivity"
             android:screenOrientation="portrait">
 
