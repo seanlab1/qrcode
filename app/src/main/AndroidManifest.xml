@@ -30,16 +30,19 @@
             android:name=".classifier.CameraActivity"
             android:label="@string/app_name">
         </activity>
+        <!--
         <activity android:name=".activities.MainActivity">
-            <!--<intent-filter>
+            <intent-filter>
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
-        -->
+
         </activity>
-        <activity android:name=".activities.Main2Activity">
+        -->
+        <activity android:name=".activities.CameraBarCodeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

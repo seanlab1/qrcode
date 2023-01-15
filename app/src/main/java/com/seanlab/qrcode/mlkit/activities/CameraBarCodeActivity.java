@@ -182,7 +182,9 @@ public final class CameraBarCodeActivity extends AppCompatActivity
     ToggleButton facingSwitch = findViewById(R.id.facing_switch);
     facingSwitch.setOnCheckedChangeListener(this);
 
-    new ViewModelProvider(this, AndroidViewModelFactory.getInstance(getApplication()))
+    //new ViewModelProvider(this, AndroidViewModelFactory.getInstance(getApplication()))
+    //sean
+    new ViewModelProvider(this, (ViewModelProvider.Factory) AndroidViewModelFactory.getInstance(getApplication()))
         .get(CameraXViewModel.class)
         .getProcessCameraProvider()
         .observe(

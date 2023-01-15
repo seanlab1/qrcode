@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">DCCA</string>
+    <string name="app_name" translatable="false">QRCODE</string>
 
     <!--tensorflow-->
     <string name="picture" translatable="false">Picture</string>
